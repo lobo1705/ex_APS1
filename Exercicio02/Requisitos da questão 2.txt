@@ -1,0 +1,30 @@
+RF01 – Criar Texto
+Permitir a criação de um texto no sistema.
+
+RF02 – Editar Texto
+Permitir a edição do texto já criado.
+
+RF03 – Definir Cor da Fonte
+Permitir escolher a cor da fonte entre PRETO, BRANCO, AZUL, AMARELO e CINZA.
+
+RF04 – Definir Cor de Fundo
+Permitir escolher a cor de fundo entre PRETO, BRANCO, AZUL, AMARELO e CINZA.
+
+RF05 – Definir Tipo do Texto
+Permitir selecionar o tipo do texto (LABEL, EDIT ou MEMO).
+
+RF06 – Visualizar Texto
+Mostrar o texto com as configurações escolhidas.
+
+RF07 – Restringir Valores de Cor e Tipo
+O sistema deve aceitar apenas as cores e tipos definidos, sem permitir outros valores.
+
+Não Funcionais:
+
+RNF01 – Usabilidade
+A interface deve ser simples e fácil de usar.
+
+RNF02 – Validação de Dados
+O sistema deve verificar se o texto não está vazio e se os dados inseridos são válidos.
+
+RNF03 – Consistência

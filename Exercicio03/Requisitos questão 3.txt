@@ -1,0 +1,24 @@
+Requisitos Funcionais:
+
+RF01 – Criar Boneco
+Permitir a criação de um boneco no sistema.
+
+RF02 – Exibir Estado do Boneco
+O sistema deve mostrar o estado atual do boneco.
+
+RF03 – Movimentar Boneco
+Permitir movimentar o boneco nas direções CIMA, BAIXO, DIREITA e ESQUERDA.
+
+RF04 – Atualizar Posição
+O sistema deve atualizar a posição do boneco após cada movimento.
+
+RF05 – Atualizar Direção
+O sistema deve atualizar a direção atual do boneco conforme o movimento realizado.
+
+Requisitos Não Funcionais:
+
+RNF01 – Interface Simples
+O sistema deve ter uma interface simples e fácil de usar.
+
+RNF02 – Tempo de Resposta
+As ações de movimentação devem ser refletidas imediatamente na interface.

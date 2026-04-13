@@ -1,0 +1,49 @@
+RF01 – O sistema deve possibilitar o cadastro de contas de energia elétrica.
+
+RF02 – O sistema deve registrar as seguintes informações:
+
+Data da leitura do medidor
+Valor da leitura
+Consumo em kWh
+Valor da fatura
+Data de quitação/pagamento
+
+RF03 – O sistema deve exibir todas as contas registradas.
+
+RF04 – O sistema deve calcular a média do consumo mensal de energia.
+
+RF05 – O sistema deve calcular a média do consumo diário considerando o intervalo entre as leituras.
+
+RF06 – O sistema deve identificar o período (mês) com maior consumo de energia.
+
+RF07 – O sistema deve identificar o período (mês) com menor consumo de energia.
+
+RF08 – O sistema pode calcular o consumo com base na diferença entre leituras (funcionalidade opcional).
+
+RF09 – O sistema deve calcular a quantidade de dias entre cada leitura realizada.
+
+2. REQUISITOS NÃO FUNCIONAIS
+
+RNF01 – O sistema deve ter uma interface simples, clara e de fácil utilização.
+
+RNF02 – O sistema deve funcionar em ambiente web utilizando Streamlit.
+
+RNF03 – O sistema deve apresentar respostas rápidas nos cálculos realizados.
+
+RNF04 – Os dados devem permanecer disponíveis durante a execução da aplicação.
+
+RNF05 – O sistema deve funcionar corretamente em navegadores atualizados.
+
+3. REGRAS DE NEGÓCIO
+
+RN01 – A leitura atual deve ser obrigatoriamente maior que a leitura anterior.
+
+RN02 – O consumo de energia não pode ser negativo.
+
+RN03 – O cálculo da média diária deve ser feito com base na diferença entre as datas de leitura.
+
+RN04 – Para calcular a média diária, é necessário existir no mínimo duas leituras registradas.
+
+RN05 – O período com maior consumo será aquele com maior valor de kWh registrado.
+
+RN06 – O período com menor consumo será aquele com menor valor de kWh registrado.
